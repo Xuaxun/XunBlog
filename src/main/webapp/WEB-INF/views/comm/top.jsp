@@ -15,7 +15,7 @@
 <link href="<%=contextPath%>/static/bootstrap/css/bootstrap.css" rel="stylesheet"/>
 <link href="<%=contextPath%>/static/bootstrap/css/bootstrap-theme.css" rel="stylesheet"/>
 <div class="row">
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -25,7 +25,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<%=contextPath%>">sang的专栏</a>
+                <a class="navbar-brand" href="<%=contextPath%>">Xun的专栏</a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -43,10 +43,14 @@
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="搜索">
                         <span class="input-group-btn">
-							<button class="btn btn-default" type="button">Go!</button>
+							<button class="btn btn-default" type="button">嗖!</button>
 						</span>
                     </div>
                 </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+                </ul>
             </div>
         </div>
     </nav>
