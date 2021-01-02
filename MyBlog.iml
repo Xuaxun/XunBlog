@@ -12,12 +12,19 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/org/sang/config/DBConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/org/sang/config/MyMVCConfig.java</file>
+        </fileset>
+      </configuration>
     </facet>
     <facet type="jpa" name="JPA">
       <configuration>
         <setting name="validation-enabled" value="true" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="MyBlog" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
